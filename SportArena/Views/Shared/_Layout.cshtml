@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SportArena</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SportArena.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="min-vh-100 d-flex flex-column bg-dark">
+    <header style="border: none">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <!-- LOGO -->
+                <h1 class="mb-0 fs-3 text-white">
+                    <a asp-controller="Loja" asp-action="Index" class="titulo">
+                        Sport <span class="text-warning">ARENA</span>
+                    </a>
+                </h1>
+
+                <!-- BOTÃO HAMBÚRGUER -->
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarArena"
+                        aria-controls="navbarArena"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- CONTEÚDO QUE VAI ABRIR/FECHAR -->
+                <div class="collapse navbar-collapse" id="navbarArena">
+
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="dropdown">
+                            <button class="btn p-0 border-0 bg-transparent text-white dropdown-toggle"
+                                    type="button"
+                                    data-bs-toggle="dropdown">
+                                Categorias
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Loja" asp-action="Produtos">Futebol</a></li>
+                                <li><a class="dropdown-item" asp-controller="Loja" asp-action="Produtos">Academia</a></li>
+                                <li><a class="dropdown-item" asp-controller="Loja" asp-action="Produtos">Vôlei</a></li>
+                                <li><a class="dropdown-item" asp-controller="Loja" asp-action="Produtos">Tênis</a></li>
+                            </ul>
+                        </div>
+
+                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Produtos">Produtos</a>
+                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Roupas">Roupas</a>
+                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Acessorios">Acessórios</a>
+
+                    </div>
+
+                    <!-- Pesquisa -->
+                    <form class="d-flex ms-lg-auto my-3 my-lg-0">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar">
+                        <button class="btn btn-arena" type="submit">Pesquisar</button>
+                    </form>
+
+                    <!-- Ícones -->
+                    <div class="d-flex gap-3 ms-lg-3">
+                        <a href="/Identity/Account/Login">
+                            <i class="fa-solid fa-user text-white fs-4"></i>
+                        </a>
+
+                        <a asp-controller="Loja" asp-action="Compras">
+                            <i class="fa-solid fa-cart-arrow-down text-white fs-4"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+   
+
+
+    </header>
+
+        <main role="main" class="flex-grow-1">
+            @RenderBody()
+        </main>
+
+
+        
+    <footer class="border-top footer mt-auto " style="color: white">
+        <div class="container">
+            <span class="texto-footer" style="color:black"> &copy; 2026 - SportArena</span> - <a asp-area="" asp-controller="Loja" asp-action="Sobre" class="text-decoration-none link-sobre " style="color:black">Quem somos</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

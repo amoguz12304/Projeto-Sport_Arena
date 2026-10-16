@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ApiSportArena/ApiSportArena.csproj" Id="ab33a5b4-02f0-4923-81de-b814165b7108" />
+  <Project Path="SportArena/SportArena.csproj" />
+</Solution>
