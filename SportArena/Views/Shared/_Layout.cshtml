@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="~/SportArena.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body class="min-vh-100 d-flex flex-column bg-dark">
+<body class="min-vh-100 d-flex flex-column">
     <header style="border: none">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
 
                 <!-- LOGO -->
@@ -53,15 +53,15 @@
                             </ul>
                         </div>
 
-                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Produtos">Produtos</a>
-                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Roupas">Roupas</a>
-                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Acessorios">Acessórios</a>
+                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Produtos"></a>
+                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Sobre">Sobre Nós</a>
+                        <a class="nav-link-arena" asp-controller="Loja" asp-action="Contato">Contato</a>
 
                     </div>
 
                     <!-- Pesquisa -->
                     <form class="d-flex ms-lg-auto my-3 my-lg-0">
-                        <input class="form-control me-2" type="search" placeholder="Pesquisar">
+                        <input class="form-control me-2 pesquisa" type="search" placeholder="Pesquisar">
                         <button class="btn btn-arena" type="submit">Pesquisar</button>
                     </form>
 
@@ -94,7 +94,7 @@
         
     <footer class="border-top footer mt-auto " style="color: white">
         <div class="container">
-            <span class="texto-footer" style="color:black"> &copy; 2026 - SportArena</span> - <a asp-area="" asp-controller="Loja" asp-action="Sobre" class="text-decoration-none link-sobre " style="color:black">Quem somos</a>
+            <span class="texto-footer" style="color:black"> &copy; 2026 SportArena - </span> <a asp-area="" asp-controller="Loja" asp-action="Sobre" class="text-decoration-none link-sobre " style="color:black">Quem somos</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

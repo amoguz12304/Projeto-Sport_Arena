@@ -1,0 +1,57 @@
+﻿using ApiSportArena.Models;
+using ApiSportArena.Repository;
+using ApiSportArena.Data;
+using Microsoft.EntityFrameworkCore;
+
+namespace ApiSportArena.Services
+{
+   
+    
+        public class produtoService(ProdutoRepository repository)
+        {
+            public async Task<IEnumerable<Produto>> GetProduto()
+            {
+                return await repository.GetProduto();
+            }
+
+            public async Task<Produto?> GetprodutoById(Guid id)
+            {
+                return await repository.GetProdutoById(id);
+            }
+
+            public async Task<Produto> Postproduto(Produto produto)
+            {
+                
+
+                return await repository.Add(produto);
+            }
+
+            public async Task<Produto?> PutLivro(Guid id, Produto produto)
+            {
+                var produtoExistente = await repository.GetProdutoById(id);
+
+                if (produtoExistente == null)
+                {
+                    return null;
+                }
+
+                produtoExistente.Nome = produto.Nome;
+                produtoExistente.Descricao = produto.Descricao;
+                produtoExistente.Preco = produto.Preco; 
+                produtoExistente.categoriaId = produto.categoriaId;
+                produtoExistente.NomeCategoria = produto.NomeCategoria;
+
+              await repository.Update(produtoExistente);
+
+                return produtoExistente;
+            }
+
+            public async Task<bool> Deleteproduto(Guid id)
+            {
+                return await repository.Delete(id);
+            }
+        }
+    }
+
+
+

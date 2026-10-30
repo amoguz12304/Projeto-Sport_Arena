@@ -89,6 +89,9 @@ namespace ApiSportArena.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
+                    b.Property<bool>("Disponivel")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Estoque")
                         .HasColumnType("int");
 
@@ -132,6 +135,10 @@ namespace ApiSportArena.Migrations
                     b.Property<string>("Foto")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Funcao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Idade")
                         .HasColumnType("int");
 
@@ -143,6 +150,9 @@ namespace ApiSportArena.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 

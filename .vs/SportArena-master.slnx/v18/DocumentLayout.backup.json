@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\sportarena\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|solutionrelative:sportarena\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\apisportarena\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB33A5B4-02F0-4923-81DE-B814165B7108}|ApiSportArena\\ApiSportArena.csproj|solutionrelative:apisportarena\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\sportarena\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|solutionrelative:sportarena\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\sportarena\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|solutionrelative:sportarena\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\sportarena\\views\\loja\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|solutionrelative:sportarena\\views\\loja\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\sportarena\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|solutionrelative:sportarena\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|c:\\users\\49205835838\\downloads\\sportarena-master (1)\\sportarena-master\\sportarena-master\\sportarena\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5487F13-2C0E-0F82-AAA8-776F8BAA20E8}|SportArena\\SportArena.csproj|solutionrelative:sportarena\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SportArena\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SportArena\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-16T16:17:59.538Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "authController.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Controllers\\authController.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Controllers\\authController.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Controllers\\authController.cs",
+              "RelativeToolTip": "ApiSportArena\\Controllers\\authController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T12:38:15.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "ApiSportArena\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T11:45:19.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "ApiSportArena\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T11:45:07.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Repository\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Repository\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Repository\\ProdutoRepository.cs",
+              "RelativeToolTip": "ApiSportArena\\Repository\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T11:45:06.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Models\\Usuario.cs",
+              "RelativeToolTip": "ApiSportArena\\Models\\Usuario.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T11:43:15.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Program.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Program.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Program.cs",
+              "RelativeToolTip": "ApiSportArena\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T11:17:17.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiSportArena\\appsettings.json",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\appsettings.json",
+              "RelativeToolTip": "ApiSportArena\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-30T10:51:26.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SportArena\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "SportArena\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:09:00.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SportArena\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SportArena\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:07:18.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SportArena\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SportArena\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:07:17.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\Loja\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportArena\\Views\\Loja\\Index.cshtml",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\Loja\\Index.cshtml",
+              "RelativeToolTip": "SportArena\\Views\\Loja\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwBsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T16:28:25.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SportArena\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\SportArena\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SportArena\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAIBJwD8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T16:17:30.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "ApiSportArena\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "ApiSportArena\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:23:39.454Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

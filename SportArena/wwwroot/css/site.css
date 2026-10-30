@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-color: #0f0f11;
+    background-color: #0a0a0b;
 }
 
 @media (max-width: 768px) {
@@ -98,7 +98,7 @@ html {
     position: static !important;
     bottom: auto !important;
     width: 100%;
-    background-color: #f19003;
+    background-color: #ffc107;
     padding: 15px 0;
 }
 
@@ -109,6 +109,11 @@ html {
     color: #000;
     border: none;
     font-weight: 600;
+}
+.pesquisa {
+    width: 300px;
+    backgorund-color: #211c16;
+    
 }
 
 .btn-login{

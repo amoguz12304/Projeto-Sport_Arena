@@ -330,3 +330,8 @@ C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportAren
 C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\obj\Debug\net10.0\ApiSportArena.pdb
 C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\obj\Debug\net10.0\ApiSportArena.genruntimeconfig.cache
 C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\obj\Debug\net10.0\ref\ApiSportArena.dll
+C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\obj\Debug\net10.0\ApiSportArena.sourcelink.json
+C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\49205835838\Downloads\SportArena-master (1)\SportArena-master\SportArena-master\ApiSportArena\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll

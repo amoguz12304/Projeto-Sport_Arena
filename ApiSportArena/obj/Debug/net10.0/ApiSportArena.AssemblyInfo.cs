@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("04b0c3f1-d908-4c5f-944c-9bea9fe88805")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiSportArena")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd89eff73c69c9e4320393a577ba88333ea6835e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiSportArena")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiSportArena")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

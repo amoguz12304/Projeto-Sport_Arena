@@ -25,13 +25,18 @@ namespace ApiSportArena.Repository
                 .AnyAsync(u => u.Email == email);
         }
 
+        public async Task<Usuario?> GetUsuarioByEmail(string email)
+        {
+            return await context.Usuarios
+                .FirstOrDefaultAsync(u => u.Email == email);
+        }
         public async Task<bool> CpfExiste(string cpf)
         {
             return await context.Usuarios
                 .AnyAsync(u => u.Cpf == cpf);
         }
 
-
+       
 
         public async Task<bool> SenhaExiste(string senha)
         {

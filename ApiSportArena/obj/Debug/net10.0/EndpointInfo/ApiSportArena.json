@@ -13,6 +13,38 @@
     }
   ],
   "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Carrinho": {
       "get": {
         "tags": [
@@ -698,6 +730,29 @@
           }
         }
       },
+      "delete": {
+        "tags": [
+          "Produtos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Produtos/{id}  ": {
       "put": {
         "tags": [
           "Produtos"
@@ -733,27 +788,6 @@
           },
           "required": true
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Produtos"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -1039,6 +1073,21 @@
           }
         }
       },
+      "LoginRequest": {
+        "required": [
+          "email",
+          "senha"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "senha": {
+            "type": "string"
+          }
+        }
+      },
       "Produto": {
         "required": [
           "nome",
@@ -1073,6 +1122,9 @@
           "modelo": {
             "type": "string"
           },
+          "disponivel": {
+            "type": "boolean"
+          },
           "estoque": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
             "type": [
@@ -1095,7 +1147,8 @@
           "idade",
           "email",
           "cpf",
-          "senha"
+          "senha",
+          "funcao"
         ],
         "type": "object",
         "properties": {
@@ -1129,6 +1182,12 @@
             "minLength": 8,
             "type": "string"
           },
+          "status": {
+            "type": "boolean"
+          },
+          "funcao": {
+            "type": "string"
+          },
           "foto": {
             "type": [
               "null",
@@ -1140,6 +1199,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Auth"
+    },
     {
       "name": "Carrinho"
     },

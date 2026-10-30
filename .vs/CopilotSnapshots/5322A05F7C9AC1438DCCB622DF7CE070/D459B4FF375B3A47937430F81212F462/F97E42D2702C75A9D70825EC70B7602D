@@ -1,0 +1,24 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ApiSportArena.Models
+{
+    public class Produto : Categoria
+    {
+        public Guid Id { get; set; }
+
+        [Required(ErrorMessage = "O nome do produto é obrigatório")]
+        public string Nome { get; set; }
+
+        [StringLength(500, ErrorMessage = "A descrição do produto não pode exceder 500 caracteres")]
+        public string Descricao { get; set; }
+
+
+        public decimal Preco { get; set; }
+
+        public Categoria categoriaId { get; set; }
+
+        public string NomeCategoria { get; set; }
+
+
+    }
+}

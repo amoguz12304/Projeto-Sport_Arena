@@ -1,0 +1,26 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+
+namespace ApiSportArena.Models
+{
+    public class Produto : Categoria
+    {
+        [Required(ErrorMessage = "O nome do produto é obrigatório")]
+        public string Nome { get; set; }
+
+        [StringLength(500, ErrorMessage = "A descrição do produto não pode exceder 500 caracteres")]
+        public string Descricao { get; set; }
+
+        [Precision(18, 2)]
+        public decimal Preco { get; set; }
+
+        [Required(ErrorMessage = "O identificador de categoria não pode estar em branco")]
+        public Guid CategoriaId { get; set; }        // FK
+
+        public Categoria Categoria { get; set; }     // navegação
+
+        
+    }
+
+}
+

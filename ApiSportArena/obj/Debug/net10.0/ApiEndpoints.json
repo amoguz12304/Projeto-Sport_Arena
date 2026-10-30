@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ApiSportArena.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "ApiSportArena.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiSportArena.Controllers.CarrinhoController",
     "Method": "Getcarrinho",
     "RelativePath": "api/Carrinho",
@@ -400,8 +416,24 @@
   },
   {
     "ContainingType": "ApiSportArena.Controllers.ProdutosController",
-    "Method": "PutProduto",
+    "Method": "DeleteProduto",
     "RelativePath": "api/Produtos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiSportArena.Controllers.ProdutosController",
+    "Method": "PutProduto",
+    "RelativePath": "api/Produtos/{id}  ",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -414,22 +446,6 @@
       {
         "Name": "produto",
         "Type": "ApiSportArena.Models.Produto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiSportArena.Controllers.ProdutosController",
-    "Method": "DeleteProduto",
-    "RelativePath": "api/Produtos/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
