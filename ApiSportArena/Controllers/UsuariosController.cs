@@ -10,17 +10,22 @@ namespace ApiSportArena.Controllers
     [ApiController]
     public class usuariosController(UsuarioService usuarioService) : ControllerBase
     {
+        private static UsuarioResponse ParaResponse(Usuario u) =>
+         new(u.Id, u.Nome, u.Idade, u.Email, u.Cpf, u.Status, u.Funcao, u.Foto);
+       
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
+        public async Task<ActionResult<IEnumerable<UsuarioResponse>>> GetUsuarios()
         {
-            return Ok(await usuarioService.GetUsuarios());
+            var usuarios = await usuarioService.GetUsuarios();
+            return Ok(usuarios.Select(ParaResponse));
         }
 
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<Usuario>> GetUsuarioById(Guid id)
+        public async Task<ActionResult<UsuarioResponse>> GetUsuarioById(Guid id)
         {
             var usuario = await usuarioService.GetUsuarioById(id);
-            return usuario is not null ? Ok(usuario) : NotFound();
+            return usuario is not null ? Ok(ParaResponse(usuario)) : NotFound();
         }
 
         [HttpPost]
@@ -28,7 +33,7 @@ namespace ApiSportArena.Controllers
         {
             var usuarioInserido = await usuarioService.PostUsuario(usuario);
 
-            return CreatedAtAction("GetusuarioById", new { id = usuario.Id }, usuarioInserido);
+            return CreatedAtAction("GetusuarioById", new { id = usuario.Id }, ParaResponse(usuarioInserido));
         }
 
         [HttpPut("{id}")]

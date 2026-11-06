@@ -461,7 +461,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiSportArena.Models.Usuario, ApiSportArena, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiSportArena.Models.UsuarioResponse, ApiSportArena, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -513,7 +513,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiSportArena.Models.Usuario",
+        "Type": "ApiSportArena.Models.UsuarioResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

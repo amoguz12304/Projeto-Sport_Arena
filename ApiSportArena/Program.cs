@@ -15,6 +15,8 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+builder.Services.AddDataProtection();
+
 var chave = new SymmetricSecurityKey(RandomNumberGenerator.GetBytes(32));
 
 builder.Services.AddSingleton(chave);

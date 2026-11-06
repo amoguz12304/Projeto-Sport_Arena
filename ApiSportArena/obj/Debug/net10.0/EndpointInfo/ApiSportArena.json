@@ -808,7 +808,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Usuario"
+                    "$ref": "#/components/schemas/UsuarioResponse"
                   }
                 }
               },
@@ -816,7 +816,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Usuario"
+                    "$ref": "#/components/schemas/UsuarioResponse"
                   }
                 }
               },
@@ -824,7 +824,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Usuario"
+                    "$ref": "#/components/schemas/UsuarioResponse"
                   }
                 }
               }
@@ -902,17 +902,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioResponse"
                 }
               }
             }
@@ -1180,6 +1180,54 @@
           "senha": {
             "maxLength": 100,
             "minLength": 8,
+            "type": "string"
+          },
+          "status": {
+            "type": "boolean"
+          },
+          "funcao": {
+            "type": "string"
+          },
+          "foto": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "UsuarioResponse": {
+        "required": [
+          "id",
+          "nome",
+          "idade",
+          "email",
+          "cpf",
+          "status",
+          "funcao",
+          "foto"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nome": {
+            "type": "string"
+          },
+          "idade": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "email": {
+            "type": "string"
+          },
+          "cpf": {
             "type": "string"
           },
           "status": {

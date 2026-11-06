@@ -1,15 +1,19 @@
 ﻿using ApiSportArena.Models;
 using ApiSportArena.Repository;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.DataProtection;
 namespace ApiSportArena.Services
 {
-    public class UsuarioService(UsuarioRepository repository)
+    public class UsuarioService(UsuarioRepository repository, IDataProtectionProvider provider)
     {
         private readonly PasswordHasher<Usuario> hasher = new();
+        private readonly IDataProtector protector = provider.CreateProtector("Usuario.Cpf");
         public async Task<IEnumerable<Usuario>> GetUsuarios()
         {
+            
+
             return await repository.GetUsuario();
         }
 
@@ -20,6 +24,9 @@ namespace ApiSportArena.Services
 
         public async Task<Usuario> PostUsuario(Usuario usuario)
         {
+            usuario.Funcao = Funcoes.Cliente;
+            usuario.Status = true;
+
             if (await repository.EmailExiste(usuario.Email))
                 throw new InvalidOperationException("Já existe um usuário cadastrado com este E-mail.");
 
