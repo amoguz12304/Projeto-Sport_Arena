@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiSportArena")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3abf30903337580d109faadae0aa2e1b94f6be2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+355ffcb1d7478317ba039450c951eba9068ab650")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiSportArena")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiSportArena")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

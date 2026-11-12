@@ -9,4 +9,6 @@
         bool Status,
         string Funcao,
         string? Foto);
+
+    public record AlterarSenhaRequest(string SenhaAtual, string NovaSenha);
 }

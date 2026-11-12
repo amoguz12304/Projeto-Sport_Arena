@@ -27,36 +27,39 @@ namespace ApiSportArena.Controllers
             var usuario = await usuarioService.GetUsuarioById(id);
             return usuario is not null ? Ok(ParaResponse(usuario)) : NotFound();
         }
-
         [HttpPost]
-        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        public async Task<ActionResult<UsuarioResponse>> PostUsuario(Usuario usuario)
         {
-            var usuarioInserido = await usuarioService.PostUsuario(usuario);
+            var resultado = await usuarioService.PostUsuario(usuario);
 
-            return CreatedAtAction("GetusuarioById", new { id = usuario.Id }, ParaResponse(usuarioInserido));
+            if (!resultado.Sucesso)
+                return BadRequest(new { message = resultado.Erro });
+
+            return CreatedAtAction(nameof(GetUsuarioById),
+                new { id = resultado.Valor!.Id },
+                ParaResponse(resultado.Valor!));
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult> Putusuario(Guid id, Usuario usuario)
         {
-            var usuarioAtualizado = await usuarioService.PutUsuario(id, usuario);
-            return usuarioAtualizado is not null ? NoContent() : NotFound();
+            var resultado = await usuarioService.PutUsuario(id, usuario);
+
+            if (!resultado.Sucesso)
+                return BadRequest(new { message = resultado.Erro });
+
+            return resultado.Valor is null ? NotFound() : NoContent();
         }
 
-
-        //[HttpPut("{id}/Desativar-conta")] 
-        //public async Task<ActionResult> DesativaUsuario(Guid id, Usuario usuario)
-        //{
-        //  var usuarioDesativado =  await usuarioService.DeativarUsuario()
-        //}
-
-
-
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> Deleteusuario(Guid id)
+        [HttpPut("{id}/alterar-senha")]
+        public async Task<ActionResult> AlterarSenha(Guid id, AlterarSenhaRequest request)
         {
-            var deletado = await usuarioService.DeleteUsuario(id);
-            return deletado ? NoContent() : NotFound();
+            var resultado = await usuarioService.AlterarSenha(id, request);
+
+            if (!resultado.Sucesso)
+                return BadRequest(new { message = resultado.Erro });
+
+            return resultado.Valor ? NoContent() : NotFound();
         }
 
     }

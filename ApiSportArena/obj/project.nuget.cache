@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i+z39McrcNg=",
+  "dgSpecHash": "OmAr9BI8ZP8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\49205835838\\Downloads\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\ApiSportArena.csproj",
+  "projectFilePath": "C:\\Users\\49205835838\\Desktop\\SportArena-master (1)\\SportArena-master\\SportArena-master\\ApiSportArena\\ApiSportArena.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\49205835838\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\49205835838\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
